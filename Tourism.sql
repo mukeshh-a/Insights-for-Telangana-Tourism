@@ -59,9 +59,7 @@ SELECT
     WHEN dv.year = 2019 THEN dv.visitors
     ELSE 0
   END) AS "visitors 2019",
-  ROUND(((pow(MAX(dv.visitors) / MIN(dv.visitors),
-
-  1 / 3.0) - 1) * 100), 2) AS cagr
+  ROUND(((pow(MAX(dv.visitors) / MIN(dv.visitors),1 / 3.0) - 1) * 100), 2) AS cagr
 FROM domestic_visitors dv
 WHERE dv.year BETWEEN 2016 AND 2019
 GROUP BY dv.district
