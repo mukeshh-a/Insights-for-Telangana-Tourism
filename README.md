@@ -38,7 +38,9 @@ Tools Utilised:
 1. RStudio to bind the data and then clean it.
 2. MS Excel to extract the research data from the websites.
 3. Microsoft SQL Server to perform EDA.
-4. Tableau to visualize the data and then combine those visualizations into a compelling story to provide insights.
+4. Tableau to visualize the data and then combine those visualizations into a compelling story to provide insights. 
+
+https://public.tableau.com/app/profile/mukesh.ale/viz/InsightsforTelanganaTourismDepartment/Story1
 
 Findings:
 
